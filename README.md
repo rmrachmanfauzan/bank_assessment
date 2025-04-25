@@ -34,7 +34,7 @@ cd bank_assessment
 cp .env.example .env
 
 # Build and run the containers
-docker compose build --build-arg HOST=127.0.0.1 --build-arg PORT=9090
+docker-compose build --build-arg HOST=127.0.0.1 --build-arg PORT=9090
 # run image
-docker compose up -d
+docker-compose up -d
 
